@@ -435,44 +435,6 @@ These results represent the latest observed execution. They are not a guarantee 
 
 ---
 
-## 14. Pending Assignment Deliverables
-
-The core four-source ingestion pipeline has been implemented and successfully executed. The following assignment deliverables remain to be completed.
-
-### Pending 1: System architecture diagram
-
-Create a diagram that clearly shows:
-
-- CSV file source and file extraction.
-- SQLite source and SQL extraction.
-- Public REST API and HTTP GET extraction.
-- Webhook simulator and HTTP POST event delivery.
-- Pull-based and push-based data flows.
-- Standardization and consolidation.
-- Data-quality validation.
-- Unified SQLite staging repository.
-
-The diagram should distinguish the webhook's push-based event delivery from the pipeline's later pull-based retrieval of received events.
-
-### Pending 2: Batch-oriented versus real-time event-driven comparison
-
-Write an approximately 200-word comparison covering:
-
-- How batch file ingestion works.
-- How event-driven ingestion works.
-- Latency and data freshness.
-- Processing complexity and operational requirements.
-- Scalability and reliability considerations.
-- Appropriate business use cases.
-
-### Pending 3: Final documentation review
-
-The README now documents the project overview, concepts, setup, implementation steps, execution, folder structure, validation results, and known limitations.
-
-The final documentation review should be completed after the architecture diagram and batch-versus-event-driven comparison are added.
-
----
-
 ## 15. Future Improvements
 
 Possible extensions beyond the assignment include:
