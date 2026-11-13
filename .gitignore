@@ -1,3 +1,17 @@
-.venv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-.git
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Generated databases
+*.db
+
+# Test cache
+.pytest_cache/
